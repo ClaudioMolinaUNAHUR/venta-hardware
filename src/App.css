@@ -13,6 +13,53 @@
   }
 }
 
+.cabecera{
+  background: url('https://www.hwbox.gr/forum/uploads/monthly_2017_12/25182484_2207901679236170_2243756100346085056_o.jpg.6aaf22486782c022195a986cc3eafc8d.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  color: white;
+}
+.sub-titulo{
+  font-size: 20px;
+  margin-bottom: -20px;
+  text-transform: uppercase;  
+  text-shadow: 2px 2px 8px #000000
+}
+.titulo{
+  font-size: 100px;
+  text-shadow: 2px 2px 8px #000000
+}
+
+.titulo-arma{
+  background: black;
+  padding: 20px 0px;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.armar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marca{
+  padding: 30px;
+  width: 30vw;
+  height: 30vw;
+  border: 0.5px solid darkgrey;
+  border-radius: 5%;
+  margin: 10px;
+}
+.marca > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,7 +74,14 @@
 .App-link {
   color: #61dafb;
 }
-
+a{
+  text-decoration: none;
+  color:white
+}
+li{
+  font-size: 20px;
+  list-style: none; 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +89,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+footer{
+  overflow: hidden;
+  width: 100%;
+  height:200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+.redes{
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+.redes > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
